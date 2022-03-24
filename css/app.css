@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-image: url(../img/WF12151S-LR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table{
+    margin: auto;
+}
+
+.board{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(170, 165, 165);
+    border:3px gray solid;
+    margin:auto;
+}
+
+.cell{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+button{
+    height:50px;
+    width: 70px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border:3px palevioletred solid;
+    padding: 10px;
+}
+
+.timer{
+   height: 30px;
+   width:40px;
+   background-color: rgb(103, 82, 141); 
+   color:white;
+   margin:auto;
+}
+
+.modal{
+     background-color: rgb(86, 74, 196);
+     color: rgb(214, 187, 216);
+     border-radius: 20%;
+     border: yellow 3px dashed;
+     font-size: 40px;
+     width: 200px;
+     height: 80px;
+     margin: auto;
+     margin-top: 20px;
+     padding: 10px;
+     display: none;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+      
+}
+ .lives{
+    height: 30px;
+    width:60px;
+    background-color: rgb(103, 82, 141); 
+    color:white;
+    margin:auto;
+    margin-top: 10px;
+ }
+ .restart{
+     height: 40px;
+     width:40px;
+     background-color: white;
+     text-align: center;
+     margin: auto;
+ }

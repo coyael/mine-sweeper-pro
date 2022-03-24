@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine sweeper</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body onload="init()" >
+    <h1>Mine sweeper</h1>
+    <div class="timer">000</div>
+    <div class="lives"><span></span></div>
+    <button class="restart" onclick="setLevel(4,2,2)"><span></span></button>
+    <table class="table">
+        <tbody class="board"></tbody>
+    </table>
+    <button onclick="setLevel(4,2,2)">Easy</button>
+    <button onclick="setLevel(8,12,4)">Medium</button>
+    <button onclick="setLevel(12,30,8)">Expert</button>
+    <div class="modal">
+        <span></span>
+        <button onclick="setLevel(4,2,2)">Play again</button>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/mineSweeper.js"></script>
+</body>
+</html>
